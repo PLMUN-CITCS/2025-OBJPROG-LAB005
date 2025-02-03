@@ -109,59 +109,59 @@ Only perform this if this is the first time you will setup your Git Environment
    ```
 
 2. Declare and Initialize Integer Variables
-   - Inside the main method, declare two integer variables, num1 and num2.
-   - Initialize num1 with the value 10.
-   - Initialize num2 with the value 5.
+   - Inside the `main` method, declare two integer variables, `num1` and `num2`.
+   - Initialize `num1` with the value 10.
+   - Initialize `num2` with the value 5.
    ```Java
    int num1 = 10;
    int num2 = 5;
    ```
          
 3. Declare and Initialize a Double Variable
-   - Declare a double variable named num3.
-   - Initialize num3 with the value 3.0.
+   - Declare a double variable named `num3`.
+   - Initialize `num3` with the value 3.0.
    ```Java
    double num3 = 3.0;
    ```
 
 4. Perform Addition
-   - Declare an integer variable named sum.
-   - Calculate the sum of num1 and num2 and store the result in sum.
+   - Declare an integer variable named `sum`.
+   - Calculate the sum of `num1` and `num2` and store the result in `sum`.
    ```Java
    int sum = num1 + num2;
    ```
    
 5. Perform Subtraction
-   - Declare an integer variable named difference.
-   - Calculate the difference between num1 and num2 and store the result in difference.
+   - Declare an integer variable named `difference`.
+   - Calculate the difference between `num1` and `num2` and store the result in `difference`.
    ```Java
-   System.out.print("Enter a decimal number: ");
+   int difference = num1 - num2;
    ```
    
 6. Perform Multiplication
-   - Declare an integer variable named product.
-   - Calculate the product of num1 and num2 and store the result in product.
+   - Declare an integer variable named `product`.
+   - Calculate the product of `num1` and `num2` and store the result in `product`.
    ```Java
    int product = num1 * num2;
    ```
    
 7. Perform Integer Division
-   - Declare an integer variable named quotient.
-   - Calculate the integer division of num1 by num2 and store the result in quotient.  (Remember, integer division truncates any decimal part).
+   - Declare an integer variable named `quotient`.
+   - Calculate the integer division of `num1` by `num2` and store the result in `quotient`.  (Remember, integer division truncates any decimal part).
    ```Java
    int quotient = num1 / num2;
    ```
 
 8. Perform Modulus Operation
-   - Declare an integer variable named remainder.
-   - Calculate the remainder of the division of num1 by num2 (using the modulus operator %) and store the result in remainder.
+   - Declare an integer variable named `remainder`.
+   - Calculate the remainder of the division of `num1` by `num2` (using the modulus operator `%`) and store the result in `remainder`.
    ```Java
    int remainder = num1 % num2;
    ```
 
 9. Demonstrate Operator Precedence
-   - Declare an integer variable named expressionResult.
-   - Calculate the result of the following expression and store it in expressionResult: num1 + num2 * 2 - (num1 / num2).  Pay attention to the order of operations (multiplication and division before addition and subtraction). The parentheses enforce the division to happen first.
+   - Declare an integer variable named `expressionResult`.
+   - Calculate the result of the following expression and store it in `expressionResult`: `num1 + num2 * 2 - (num1 / num2)`.  Pay attention to the order of operations (multiplication and division before addition and subtraction). The parentheses enforce the division to happen first.
    ```Java
    int expressionResult = num1 + num2 * 2 - (num1 / num2);
    ```
