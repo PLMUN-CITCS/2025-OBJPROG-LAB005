@@ -84,13 +84,12 @@ Only perform this if this is the first time you will setup your Git Environment
 
    **Desired Output:**
    ```txt
-   Sum: 15
-   Difference: 5
-   Product: 50
-   Quotient: 2
-   Remainder: 0
-   Expression Result: 18
+   Power: 8.0
+   Square Root: 4.0
+   Rounded Number: 6
+   Random Number: 0.007895794160877712
    ```
+   Note: Random Number value may vary.
 
    **File Naming Convention:**
    - `MathLibraryDemo.java`
