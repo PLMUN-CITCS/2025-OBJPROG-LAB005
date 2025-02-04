@@ -82,6 +82,16 @@ Only perform this if this is the first time you will setup your Git Environment
    **Objective:**
    - Use basic `Math` library functions such as power, square root, rounding, and generating random numbers.
 
+   **Desired Output:**
+   ```txt
+   Sum: 15
+   Difference: 5
+   Product: 50
+   Quotient: 2
+   Remainder: 0
+   Expression Result: 18
+   ```
+
    **File Naming Convention:**
    - `MathLibraryDemo.java`
 
