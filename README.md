@@ -161,9 +161,9 @@ Only perform this if this is the first time you will setup your Git Environment
       ```
 
    7. Compile and Run
-      - Save the file as `MathLibraryDemo.java`.
-      - Compile the code using `javac MathLibraryDemo.java` in your terminal or command prompt.
-      - Run the compiled code using `java MathLibraryDemo`.
+       - Save the file as `MathLibraryDemo.java`.
+       - Compile the code using `javac MathLibraryDemo.java` in your terminal or command prompt.
+       - Run the compiled code using `java MathLibraryDemo`.
 
 ### **Step 4: Push Changes to GitHub**
 Once you've completed your changes, follow these steps to upload your work to your GitHub repository.
