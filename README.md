@@ -1,7 +1,7 @@
-2025-OBJPROG-WK02S0E02
+# **2025-OBJPROG-LAB005**
 Week 02 - Introduction to Java Programming
 
-Exercise # 04 - Guided Coding Exercise: Utilizing the Java Math API Library
+Laboratory # 05 - Guided Coding Exercise: Utilizing the Java Math API Library
 
 ## **Instructions**
 
@@ -77,7 +77,7 @@ Only perform this if this is the first time you will setup your Git Environment
 
 ### **Step 3: Complete the Assignment**
 
-**Exercise # 04 - Utilizing the Java Math API Library**
+**Laboratory # 05 - Guided Coding Exercise: Utilizing the Java Math API Library**
 
    **Objective:**
    - Use basic `Math` library functions such as power, square root, rounding, and generating random numbers.
@@ -95,15 +95,19 @@ Only perform this if this is the first time you will setup your Git Environment
    - `MathLibraryDemo.java`
 
    **Notable Observations (to be discussed after completing the exercise):**
-   - The Math.pow() method takes two arguments (base and exponent) and returns a double.
-   - The Math.sqrt() method takes one argument and returns a double.
-   - The Math.round() method returns a long (whole number).
-   - Math.random() generates a pseudo-random number between 0.0 and 1.0. Each time you run the program, you'll get a different random number.
+   - Math Library Functions: The activity introduces several essential Math library functions: Math.pow() (for exponentiation), Math.sqrt() (for square root), Math.round() (for rounding), and Math.random() (for random number generation). These are commonly used in programming.
+   - Return Types: Students should observe the return types of these functions. Math.pow() and Math.sqrt() return double values, while Math.round() returns a long. Math.random() returns a double between 0.0 and 1.0.
+   - Randomness: It's important for students to understand that Math.random() generates pseudo-random numbers. They are not truly random, but they are sufficient for many purposes. The output will be different each time the program runs.
+   - No Import Needed: The activity reinforces the fact that the java.lang package (which contains the Math class) is automatically imported, so no explicit import statement is required.
+   - Application of Math Functions: This exercise provides a practical application of mathematical functions in Java. Students get to see how these functions can be used to perform common calculations.
 
    **Java Programming Best Practices:**
-   - Use descriptive variable names.
-   - Add comments to explain what your code does.
-   - Remember that the `Math` class is part of the `java.lang` package, so you don't need to import it explicitly. It's automatically available in all Java programs.
+   - Using the Math Class: The Math class provides many useful mathematical functions. You don't need to import it; it's always available.
+   - Math Function Arguments and Return Types: Pay close attention to the data types of arguments you pass to Math functions and the data type of the value they return. For example, Math.pow() returns a double, and Math.round() returns a long.
+   - Descriptive Variable Names: Use descriptive names like powerResult, sqrtResult, etc., to make your code more readable.
+   - Comments: Add comments to explain what each part of your code does, especially when using unfamiliar functions.
+   - Random Number Generation: Math.random() generates a pseudo-random number between 0.0 (inclusive) and 1.0 (exclusive). Remember that each time you run the program, you'll likely get a different random number.
+   - Rounding: Math.round() rounds a decimal number to the nearest whole number (a long). Be aware that there are other rounding methods in Java (e.g., Math.floor(), Math.ceil()) that behave differently.
       
    **Step-by-Step Instructions:**
 
